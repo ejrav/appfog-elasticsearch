@@ -1,0 +1,12 @@
+applications: 
+  .: 
+    name: elasticsearchejrav
+    framework: 
+      name: standalone
+      info: 
+        description: Standalone Application
+        exec:	
+    runtime: java
+    command: elasticsearch/bin/elasticsearch -f -Xmx512M
+    mem: 512M
+    instances: 1
